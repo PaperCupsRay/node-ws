@@ -41,7 +41,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}/ispace_papercups:latest
+            ghcr.io/papercupsray/ispace_papercups:latest
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=http server
